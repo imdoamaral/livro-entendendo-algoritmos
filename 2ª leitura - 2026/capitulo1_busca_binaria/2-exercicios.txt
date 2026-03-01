@@ -1,0 +1,12 @@
+EXERCICIOS
+
+1.1 Suponha que voce tenha uma lista com 128 nomes e esteja fazendo uma pesquisa binaria. Qual seria o numero maximo de etapas que voce levaria para encontrar o nome desejado?
+
+log x = 128
+2⁷ = 128
+x = 7
+
+1.2 Suponha que voce duplique o tamanho da lista. QUal seria o numero maximo de etapas agora?
+log x = 256
+2⁸ = 256
+x = 8
