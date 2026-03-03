@@ -1,0 +1,10 @@
+3.1 Suponha uma pilha de chamada como esta:
+
+SAUDA 2
+Nome: Maggie
+
+SAUDA
+Nome: Maggie
+
+Quais informações você pode retirar baseando-se apenas nesta pilha de chamada?
+R: "SAUDA 2" está no topo da pilha, portante será executada primeiro. "SAUDA" está num estado de parcialmente completa aguardando a função SAUDA 2 terminar para poder executar.
