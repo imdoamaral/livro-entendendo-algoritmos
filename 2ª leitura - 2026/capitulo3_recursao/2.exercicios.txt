@@ -8,3 +8,6 @@ Nome: Maggie
 
 Quais informações você pode retirar baseando-se apenas nesta pilha de chamada?
 R: "SAUDA 2" está no topo da pilha, portante será executada primeiro. "SAUDA" está num estado de parcialmente completa aguardando a função SAUDA 2 terminar para poder executar.
+
+3.2 Suponha que você acidentalmente escreva uma função recursiva que fique executando infinitamente. Como você viu, seu computador aloca memória na pilha para cada chamada de função. O que acontece com a pilha quando a função recursiva fica executando infinitamente?
+R: acontece um estouro de pilha.
