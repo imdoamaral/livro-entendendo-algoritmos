@@ -1,0 +1,17 @@
+EXERCÍCIOS
+
+É importante que funções hash retornem o mesmo valor de saída quando o mesmo valor de entrada for inserido. Caso contrário, não será possível encontrar o item que você deseja na tabela hash.
+
+Quais destas funções hash são consistentes?
+
+5.1 f(x) = 1  # Retorna 1 para qualquer entrada
+R: consistente.
+
+5.2 f(x) = rand()  # Retorna um número aleatório a cada execução
+R: inconsistente.
+
+5.3 f(x) = proximo_espaco_vazio()  # Retorna o índice do próximo espaço vazio da tabela hash
+R: inconsistente.
+
+5.4 f(x) = len(x)  # Retorna o comprimento da string como índice
+R: consistente.
