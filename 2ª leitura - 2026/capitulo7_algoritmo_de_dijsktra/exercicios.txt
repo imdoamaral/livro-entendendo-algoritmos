@@ -1,0 +1,6 @@
+EXERCÍCIO
+7.1 Em cada um desses grafos, qual o peso do caminho mínimo do começo ao fim?
+
+A. -8
+B. -60 
+C. Nenhum, pois há um clico de peso negativo.
