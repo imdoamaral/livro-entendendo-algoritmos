@@ -1,0 +1,23 @@
+EXERCÍCIOS
+
+9.1 Imagine que você consegue roubar outro item: um MP3 player. Ele pesa 1kg e vale R$1000,00. Você deveria roubá-lo?
+R: Sim. Pois dessa forma seria possíve roubar o MP3, o iPhone e o violão, itens estes que juntos valem um total de R$4.500
+
+9.2 Suponha que você esteja indo acampar e que sua mochila tenha capacidade para 6kg. Sendo assim, você pode escolher entre os itens abaixo para levar. Cada item tem um valor, e quanto mais alto este valor, mais importante o item é.
+- Água, 3kg, 10
+- Livro, 1kg, 3
+- Comida, 2kg, 9
+- Casaco, 2kg, 5
+- Câmera, 1kg, 6
+Qual é conjunto de itens ideal que deve ser levado para o acampamento? R: Água, comida e câmera.
+
+---
+EXERCÍCIOS - Maior substring comum
+
+9.3 Desenha e preencha uma tabela para calcular a maior substring comum entre blue e clues.
+
+	C	L	U	E	S
+B	0	0	0	0	0
+L	0	1	0	0	0
+U	0	0	2	0	0
+E	0	0	0	3	0
