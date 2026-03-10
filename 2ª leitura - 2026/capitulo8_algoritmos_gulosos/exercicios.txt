@@ -1,0 +1,17 @@
+EXERCÍCIOS
+
+8.1 Você trabalha para uma empresa de mobílias e tem de enviar os móveis para todo o país. É necessário encher seu caminhão com caixas, e todas as caixas são de tamanho diferentes. Você está tentando maximizar e espaço que consegue usar em cada caminhão. Como escolheria as caixas para maximizar o espaço? Proponha uma solução gulosa. Ela lhe dará a solução ideal?
+
+R: Uma estratégia gulosa seria escolher a maior caixa que cabe no espaço restante, repetindo até que não seja mais possível colocar nenhuma caixa. Não, a solução ideal não será alcançada.
+
+8.2  Você está viajando para a Europa e tem 7 dias para visitar o maior número de lugares. Para cada lugar, você atribui um valor (o quanto deseja ver) e estima quanto tempo demora. Como maximizar o total de pontos (passar por todos os lugares que você realmente quer ver) durante sua estadia? Proponha uma solução gulosa. Ela lhe dará a solução ideal?
+
+R: Escolher a cidade que mais desejo visitar e repetir até que não haja mais tempo disponível. Não, isto não me dará uma solução ideal.
+
+---
+EXERCÍCIOS
+Para cada um desses algoritmos, diga sele é um algoritmo guloso ou não:
+
+8.3 Quicksort: não
+8.4 Pesquisa em largura: não
+8.5 Algoritmo de Djisktra: sim
