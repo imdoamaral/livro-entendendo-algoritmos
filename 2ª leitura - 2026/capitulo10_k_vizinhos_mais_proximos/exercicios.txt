@@ -1,0 +1,13 @@
+EXERCÍCIOS - Criando um sistema de recomendações
+
+10.1 No exemplo do Netflix, calculou-se a distância entre 2 usuários diferentes utilizando a fórmula da distância, mas nem todos os usuários avaliam filmes da mesma maneira. Suponha que você tenha 2 usuários, Yoogi e Pinky, os quais têm gostos similares. No entanto Yogi avalia qualquer filme que ele goste com 5, enquanto Pinky é seletivo e reserva o 5 somente para os melhores filmes. Eles têm gostos bem similares, mas, de acordo com o algoritmo da distância, eles não são vizinhos. Como você poderia levar em conta o sistema de avalição diferente deles?
+
+R: Poderíamos usar algo chamado NORMALIZAÇÃO. Observaríamos as avaliações médias para cada pessoa e usaríamos esse valor como escala para as avalições. Por exemplo, podemos perceber que o valor médio das avaliações de Pinky é 3, enquanto o valor médio de Yogi é 3,5. Portanto aumentaríamos um pouco as avaliações de Pinky até que sua média também seja 3,5. Aí então é possível comparar as avaliações na mesma escala.
+
+10.2 Suponha que o Netflix nomeie um grupo de "influenciadores". Por exemplo, Quentin Tarantino e Wes Anderson são influenciadores no Netflix, portanto as avaliações deles contam mais do que as de um usuário comum. Como você poderia modificar o sistema de recomendações de forma que a avaliação dos influenciadores tivessem um peso maior?
+
+R: Poderia dar maior peso para as avaliações dos influenciadores usando o algoritmo dos k-vizinhos mais próximos. Em vez de calcular a média das avaliações, poderia dar um peso maior para a avaliação do influenciador: como multiplicar por 3 sua nota.
+
+10.3 O Netflix tem milhões de usuários, e no exemplo anterior consideram-se os 5 vizinhos mais próximos ao criar-se o sistema de recomendações. Esse número é alto demais ou baixo demais?
+
+R: Baixo demais. Se você olhar para menos vizinhos, haverá uma chance maior de que o resultado seja tendencioso. Uma boa regra é a seguinte: se você tem N usuários, deve considerar sqrt(N) vizinhos.
